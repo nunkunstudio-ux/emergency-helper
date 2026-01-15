@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  // Note: If you deploy to https://<user>.github.io/<repo>, you might need to set basePath: '/<repo>'
+  basePath: '/emergency-helper',
 };
 
 export default nextConfig;
